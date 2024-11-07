@@ -15,7 +15,7 @@ public function getData(){
     return $daftar_buku;
 
 }
- 
+
 public function getKolomTabel(){
     $kolom_tabel = array(
         'No', 'Judul', 'Pengarang', 'Penerbit', 'Tahun'

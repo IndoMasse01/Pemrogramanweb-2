@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 class Orang{
     //property
@@ -6,19 +6,20 @@ class Orang{
     private string $tglLahir;
     protected string $alamat;
 
-    //constructornya
-    public function __construct ($nama)
-    {
-        $this->nama = $nama;
-        echo "object " . $this->nama . " dibuat <br>";
-        $this->tampilkanPassword();
-    }
 
-    //Destructor
-    public function __destruct()
-    {
-        echo "object " . $this->nama ." dihapus <br>";
-    }
+    // constructornya
+    public function __construct($nama)
+        {
+            $this->nama = $nama;
+            echo "object " . $this->nama ." dibuat <br>";
+            $this->tampilkanPassword();
+        }
+    
+        //Destructor
+        public function __destruct()
+        {
+            echo "object " . $this->nama ." dihapus <br>";
+        }
 
     //method
     public function ucapkanSalam(){
@@ -46,14 +47,12 @@ class Orang{
 
     public function getTglLahir(){
         return $this->tglLahir;
-
     }
 
     public function setAlamat($alamat){
         $this->alamat = $alamat;
-
     }
-    
+
      public function getAlamat(){
         return $this->alamat;
     }
