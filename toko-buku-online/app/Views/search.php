@@ -10,7 +10,7 @@
         </div>
         <div class="col-6 p-5">
             <h1>Temukan Buku Favorit Anda</h1>
-            <form action="<?= base_Url('search')?>" method="GET">
+            <form action="">
                 <div class="mb-3">
                     <input type="text" name="judul" id="judul" class="form-control" placeholder="Judul Buku">
                 </div>
