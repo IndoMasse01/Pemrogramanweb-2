@@ -5,29 +5,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Admin</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+                        <a class="nav-link active" aria-current="page"
+                            href="<?= base_url('admin/dashboard') ?>">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Data Buku</a>
+                        <a class="nav-link" href="<?= base_url('admin/databuku') ?>">Data Buku</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Data Transaksi</a>
+                        <a class="nav-link" href="<?= base_url('admin/transaksi') ?>">Data Transaksi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Data Pelanggan</a>
+                        <a class="nav-link" href="<?= base_url('admin/pelanggan') ?>">Data Pelanggan</a>
                     </li>
                 </ul>
             </div>
@@ -56,8 +59,10 @@
                         <td>Eka Purnama</td>
                         <td>Sukses</td>
                         <td>
-                            <a href="" data-bs-toggle="modal" data-bs-target="#editModal" type="button" class="btn btn-primary">Edit</a>
-                            <a href="" data-bs-toggle="modal" data-bs-target="#hapusModal" type="button" class="btn btn-danger">Hapus</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#editModal" type="button"
+                                class="btn btn-primary">Edit</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#hapusModal" type="button"
+                                class="btn btn-danger">Hapus</a>
                         </td>
                     </tr>
                     <tr>
@@ -67,8 +72,10 @@
                         <td>Indo Masse</td>
                         <td>Sukses</td>
                         <td>
-                            <a href="" data-bs-toggle="modal" data-bs-target="#editModal" type="button" class="btn btn-primary">Edit</a>
-                            <a href="" data-bs-toggle="modal" data-bs-target="#hapusModal" type="button" class="btn btn-danger">Hapus</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#editModal" type="button"
+                                class="btn btn-primary">Edit</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#hapusModal" type="button"
+                                class="btn btn-danger">Hapus</a>
                         </td>
                     </tr>
                     <tr>
@@ -78,8 +85,10 @@
                         <td>Aisyipa Arum</td>
                         <td>Sukses</td>
                         <td>
-                            <a href="" data-bs-toggle="modal" data-bs-target="#editModal" type="button" class="btn btn-primary">Edit</a>
-                            <a href="" data-bs-toggle="modal" data-bs-target="#hapusModal" type="button" class="btn btn-danger">Hapus</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#editModal" type="button"
+                                class="btn btn-primary">Edit</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#hapusModal" type="button"
+                                class="btn btn-danger">Hapus</a>
                         </td>
                     </tr>
                     <tr>
@@ -89,8 +98,10 @@
                         <td>Julia Herwanda</td>
                         <td>Sukses</td>
                         <td>
-                            <a href="" data-bs-toggle="modal" data-bs-target="#editModal" type="button" class="btn btn-primary">Edit</a>
-                            <a href="" data-bs-toggle="modal" data-bs-target="#hapusModal" type="button" class="btn btn-danger">Hapus</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#editModal" type="button"
+                                class="btn btn-primary">Edit</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#hapusModal" type="button"
+                                class="btn btn-danger">Hapus</a>
                         </td>
                     </tr>
                     <tr>
@@ -100,8 +111,10 @@
                         <td>Mamat Tatang</td>
                         <td>Sukses</td>
                         <td>
-                            <a href="" data-bs-toggle="modal" data-bs-target="#editModal" type="button" class="btn btn-primary">Edit</a>
-                            <a href="" data-bs-toggle="modal" data-bs-target="#hapusModal" type="button" class="btn btn-danger">Hapus</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#editModal" type="button"
+                                class="btn btn-primary">Edit</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#hapusModal" type="button"
+                                class="btn btn-danger">Hapus</a>
                         </td>
                     </tr>
                     <tr>
@@ -111,8 +124,10 @@
                         <td>Supratman</td>
                         <td>Sukses</td>
                         <td>
-                            <a href="" data-bs-toggle="modal" data-bs-target="#editModal" type="button" class="btn btn-primary">Edit</a>
-                            <a href="" data-bs-toggle="modal" data-bs-target="#hapusModal" type="button" class="btn btn-danger">Hapus</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#editModal" type="button"
+                                class="btn btn-primary">Edit</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#hapusModal" type="button"
+                                class="btn btn-danger">Hapus</a>
                         </td>
                     </tr>
                 </tbody>
@@ -120,7 +135,8 @@
             <!-- End Tabel -->
 
             <!-- Modal Edit -->
-            <div class="modal fade" id="editModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="editModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -162,7 +178,8 @@
             <!-- End Modal Edit -->
 
             <!-- Modal Hapus -->
-            <div class="modal fade" id="hapusModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="hapusModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -183,9 +200,15 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
